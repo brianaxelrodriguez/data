@@ -1,0 +1,22 @@
+﻿# --- BLOQUEO DE LIBRERÍAS MASIVAS (Tus 160k archivos) ---
+venv_ia/
+R_library/
+julia_depot/
+data_sql/
+stata_lib/
+
+# --- ARCHIVOS DE SISTEMA Y LOGS ---
+.RData
+.Rhistory
+.env
+__pycache__/
+*.py[cod]
+*.log
+*.bak
+pgvector/
+.vscode/
+Thumbs.db
+
+# --- NOTA ---
+# Solo se sube código fuente (.py, .R, .jl, .sql, .do).
+# La infraestructura se reconstruye con los scripts de instalación.
