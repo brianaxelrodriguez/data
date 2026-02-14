@@ -1,0 +1,28 @@
+﻿# --- INFRAESTRUCTURA (Ignorar carpetas pesadas) ---
+.vscode/
+venv_ia/
+venv_multimedia/
+Python_library/
+R_library/
+julia_depot/
+stata_lib/
+data_sql/
+
+# --- DATOS Y OUTPUTS (Solo código en Git) ---
+data_raw/
+data_limpia/
+outputs/
+models_saved/
+*.csv
+*.xlsx
+*.dta
+
+# --- ARCHIVOS TEMPORALES Y DE SESIÓN ---
+.env
+.RData
+.Rhistory
+*.log
+__pycache__/
+*.py[cod]
+
+# --- NOTA: SÍ se subirán los archivos .toml, .R, .py, .jl, .do y .sql ---
